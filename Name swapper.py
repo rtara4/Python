@@ -1,0 +1,5 @@
+print('Welcome to the Star Wars name creator, pleae answer the following questions below to create your name')
+first_name = input('What is your first name?')
+last_name = input('What is your last name?')
+city = input('What city were you born in?')
+maiden_name = input('What is your mothers maiden name?')

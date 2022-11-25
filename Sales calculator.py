@@ -1,0 +1,21 @@
+print('Sales Report')
+year = input('Input the year the sales report is for')
+
+month1 = float(input("Input sales made in january"))
+month2 = float(input("Input sales made in february"))
+month3 = float(input("Input sales made in march"))
+month4 = float(input("Input sales made in april"))
+month5 = float(input("Input sales made in may"))
+month6 = float(input("Input sales made in june"))
+month7 = float(input("Input sales made in july"))
+month8 = float(input("Input sales made in august"))
+month9 = float(input("Input sales made in september"))
+month10 = float(input("Input sales made in october"))
+month11 = float(input("Input sales made in november"))
+month12 = float(input("Input sales made in december£"))
+
+
+total_sales = (month1 + month2+month3+month4+month5+month6+month7+month8+month9+month10+month11+month12)
+monthly_average = (total_sales/12)
+print('Your sales for the the year were''£', total_sales)
+print('Your monthly average was''£', monthly_average)
